@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import { Problem } from './models/Problem.js';
+import { Problem } from './models/problem.js';
 
 dotenv.config();
 
